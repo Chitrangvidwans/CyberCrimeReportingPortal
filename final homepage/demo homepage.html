@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cybercrime reporting portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-color: blueviolet;
+  min-height: 100%;
+  background-image: url(Picture1.jpg);
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide "><b>Cybercrime Reporting Portal</b></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-medium">
+      <a href="reg_user.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> REGISTER</a>
+      <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> AWARENESS</a>
+      <a href="#status" class="w3-bar-item w3-button"><i class="material-icons" style="font-size:17px;">cloud</i> TRACK COMPLAINT</a>
+      <a href="#feedback" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> FEEDBACK</a>
+      
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">AWARENESS</a>
+  <a href="#feedback" onclick="w3_close()" class="w3-bar-item w3-button">FEEDBACK</a>
+  
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:48px" style="text-shadow:6px 5px 0 #444">
+    <span class="w3-jumbo w3-hide-small " style="text-shadow:4px 1px 0 #444">CYBER CRIME REPOTING PORTAL</span><br>
+    
+    <span class="w3-large">You can report your complain over here,We will get back to you very soon.</span>
+    <p><a href="user_login2.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-black"><i class="fa fa-th"></i>  FILE COMPLAINT</a></p>
+  </div> 
+  
+</header>
+
+
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">AWARENESS</h3>
+  <p class="w3-center w3-large">Cybercrimes are sophisticated crimes carried out with digital means for either monetary or non-monetary gains. In simple parlance, it can be defined as any misconduct using mobile phone, computer, laptop and/ or internet to promote any kind of lure, fraud or causing harassment to other persons online. It includes financial fraud, use of abusive language, theft of password or digital data.</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+      
+        <div class="w3-container">
+          <h3>Phishing</h3>
+          <p>
+            Phishing is a type of attack which attempts to steal sensitive information like user login credentials and credit card number. It occurs when an attacker is masquerading as a trustworthy entity in electronic communication.
+          </p>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Email Hacking</h3>
+          <p>In this crime, a hacker illegally gains access to a laptop/ desktop/ tablet computer. For the purpose, the hacker sends an email or a link in social media/ online platform. Once the unsuspecting victim opens it, with help of specialized software the hackers can steal details such as password of banks, transaction details and email conversations. The method is also used sometimes to harass a person by sending unwanted, disturbing images.</p>
+        
+        </div>
+    </div>
+    </div>
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>SIM Swapping Fraud</h3>
+          <p>With improved security for online accounts, mobile phone has become a key factor to break into these accounts. If a person experiences fraudulent practice, he/she approaches police but what if the one-time password (OTP) was basis of the transaction? Fraudsters swap SIM or copy information which can be transferred across devices.
+          </p>
+        
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Customer Care Fraud</h3>
+          <p>Citizens primarily resort to searching online for helpline of various brands. The fraudsters can get contact details right from the company’s open access fora or can spoof a website that looks the same as original to steal data. Likewise, the fraudsters create websites with alternative contact numbers for lodging a complaint. Once a person lodges complaint, he/she is asked to make payment towards various charges. The caller can also assure the citizens that they wanted the bank account details for refund but once the bank and account details are provided, the fraudsters transfer the funds.</p>
+        
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Email Spoofing Fraud</h3>
+          <p>Here the accused make exact replica of an email id or use similar-sounding words to spoof the email. Emails are used to share important information quickly and here the fraudsters try to gain by changing delivery method for the goods. They can also change bank account details where the money is to be deposited. As part of the fraud, the accused also try to divert funds or seek money on different pretexts.</p>
+          
+        
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>E-commerce related fraud</h3>
+          <p>Be cautious while using websites like OLX to buy or sell items. Cheaters create false account here on websites as seller and upload pictures of costly goods and items to be sold at cheaper rates. During conversations, they win confidence of the buyer and ask for advance payment, once payment is done by the buyer, goods / items are never delivered.</p>
+        
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Ransomware Attack</h3>
+          <p>Ransom is now collected by the criminal’s expert in online programming and hacking by locking down a remote server or individual system. If the system is not protected properly by firewall, these criminals can get access to an individual computer or network of computers and encrypt all data. The method renders computer useless for the person. Hackers do it to demand ransom – payment either through anonymous sources online or Bitcoin to ‘release’ the computer system.</p>
+        
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Data Theft</h3>
+         <p>In simple parlance, if any information or data which belongs to a person or organization gets stolen by methods of spoofing, phishing and malware attack, it can be identified as data theft. The data can also be stolen from website, computer, pen drive or email.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Virus/Malware Attack</h3>
+         <p>Malware can be viruses, trojans, worms or ransomware. The viruses affect system functioning and makes the system slow whereas trojans gather data in the background without getting detected in general scan. The criminals can also steal credentials for identity theft or install a key-logger to identify common keyboard strokes and steal information on debit/ credit card or sensitive data.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Denial of Service</h3>
+         <p>In a Denial of Service, the accused attack server of any bank or company and keep it so busy that the server / services turn “unavailable” for normal users. Such situation if continues for a longer time, respective bank or company faces huge financial losses.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Online Debit/credit card related fraud</h3>
+           <p>One of the methodologies constantly on rise, in these frauds a potential victim is approached by phone or SMS and is cautioned/ threatened by a person impersonating a bank official about closure of bank account or increased bank fees if they don’t ‘verify’ their account with relevant details. Sometimes the victims are also lured with promise of good discount or benefit of special offers to get the information such as card number, card verification value (CVV), expiry date and one-time password sent by the bank for verification.</p> 
+         
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Job Fraud</h3>
+         <p>Thousands of job aspirants upload their details including qualification, communication address and phone number online on various portals and websites. After getting hold of information, the accused make a tailor-made pitch by telephone or email that congratulates the person on matching their criteria and taking the process further.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Online Shopping Fraud</h3>
+          <p>Fraudsters put advertisements for electronic goods, vehicles, clothing, etc. on social media or portals for sale. Once someone contacts them for the same, they are asked to make advance payment for the goods. Once the fraudsters receive money, they don’t deliver the goods at all or deliver wrong/ sub-standard goods. Some websites store credit/ debit card information keyed-in by the customers and misuse it online.</p>
+         
+        </div>
+    </div>
+    </div>
+        
+  </div>
+</div>
+
+<!-- Promo Section - "crime status " -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="status">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>TRACK COMPLAINT </h3>
+      <p>Using track complaint user could see their crime report status </p>
+      <p><a href="login_status.html" class="w3-button w3-black" ><i class="material-icons" style="font-size:17px;">cloud</i> TRACK COMPLAINT </a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="status.png" alt="Buildings" width="394" height="394">
+    </div>
+  </div>
+</div> 
+
+<!-- Promo Section - "feedback form" -->
+<div class="w3-container w3-black" style="padding:1px 16px" id="feedback">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>FEEDBACK FORM </h3>
+      <p>Using feedback in closed-loop systems improves control by automatically adjusting the controller <br> output to reduce the error . This helps reduce the effects of dynamic disturbances. Feedback also <br> stability to an unstable process, ensuring a repeatable and reliable control loop</p>
+      <p><a href="feedback.html" class="w3-button w3-white" ><i class="fa fa-envelope"></i>  Feedback</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="feedback.png" alt="Buildings" width="394" height="394">
+    </div>
+  </div>
+</div> 
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+ 
+  <p>© 2023 Reporting Portal. All Rights Reserved.  </p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

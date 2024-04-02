@@ -1,0 +1,73 @@
+*{
+    font-family: 'Poppins',sans-serif;
+     
+}
+body{
+    background-color: rgb(255, 255, 255);
+   /* background-image: url("vivid-blurred-colorful-background.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    }
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 90vh;*/
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 450px;
+    margin: 100px auto;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.2),0px 5px 10px rgba(0,0,0,0.2),0px 5px 10px rgba(0,70,50,0.4)
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding:0 15px 0 15px ;
+}
+.span{
+    color: rgb(227, 91, 91);
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding:10px 0 10px 0;
+}
+header{
+    color: firebrick;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.input{
+    height: 45px;
+    display: block;
+    width: 87%;
+    border: 1px solid rgb(96, 95, 95);
+    outline: none;
+    border-radius: 30px;
+    color: rgb(12, 1, 1);
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+
+}
+.submit-btn
+{
+	height: 50px;
+    width: 60%;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 30px;
+    color: rgb(87, 87, 87);
+    padding: 0 0 0 0;
+    background: rgba(255,255,255,0.1);
+    align-self: center;
+}
